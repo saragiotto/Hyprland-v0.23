@@ -67,3 +67,24 @@ Reference:
 2. https://wiki.hyprland.org/
 3. https://github.com/wildan-pratama/wildan-hyprland
 4. https://github.com/arcolinux/arcolinux-hyprland
+
+## Main shortcuts: `~/.config/hypr/keybind.conf`
+
+<kbd>MOD</kbd> key is set to the <kbd>WINKEY</kbd>/<kbd>SUPER</kbd>
+
+ - <kbd>MOD</kbd>+<kbd>Return</kbd> = open terminal (Foot terminal)
+ - <kbd>MOD</kbd>+<kbd>A</kbd> = open Alacritty
+ - <kbd>MOD</kbd>+<kbd>SHIFT</kbd>+<kbd>Return</kbd> = open Alacritty (floating)
+ - <kbd>MOD</kbd>+<kbd>W</kbd> = open Browser (Firefox)
+ - <kbd>MOD</kbd>+<kbd>F</kbd> = open File Manager (Thunar)
+ - <kbd>ALT(LEFT)</kbd> = open Launcher (Rofi)
+ - <kbd>MOD</kbd>+<kbd>C</kbd> = close focused app [kill]
+ - <kbd>MOD</kbd>+<kbd>S</kbd> = screenshot/bring up screenshot menu
+ - <kbd>MOD</kbd>+<kbd>X</kbd> = power-menu
+ - <kbd>ALT(RIGHT)</kbd>  = float window
+ - <kbd>MOD</kbd>+<kbd>HOLD DOWN</kbd> = drag floating window
+ - <kbd>MOD</kbd>+<kbd>↑ ↓ → ←</kbd>  = switch focus respectively 
+ - <kbd>MOD</kbd>+<kbd>N</kbd> = open network manager
+ - <kbd>MOD</kbd>+<kbd>M</kbd> = open mpd controller
+ - <kbd>MOD</kbd>+<kbd>R</kbd> = open root menu
+ 
