@@ -50,7 +50,7 @@ pipewire wireplumber grim slurp jq dunst qt5-wayland qt6-wayland qt5ct qt6ct kva
 N.B.- Some points during installation. 
 1. If you choose to install hyprland-git using paru choose rustup as dependency.
 2. If it gives error, then install build from source according to offcial wiki guideline (Best way till now!).
-3. During installation of xdg-desktop-portal-hyprland-git, choose xdg-desktop-portal-wlr, otherwise hyprland will not start. Make sure that you don't have other xdg-desktop-portals. 
+3. During installation of xdg-desktop-portal-hyprland-git (XDPH) using paru, it may install other portals like xdg-desktop-portal-wlr. Please uninstall those. Only xdg-desktop-portal-gtk will work with XDPH.  
 
 
 # IMPORTANT: These configuration files will work on Hyprland 0.23 version.
