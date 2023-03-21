@@ -59,7 +59,8 @@ N.B.- Some points during installation.
 1. Copy the contents of config to .config
 2. Copy the content of etc to your /etc folder. Don't copy the folder and paste it into /etc! It will break the system. Copy the content.
 3. Copy the contents of usr to the respective folders fo /usr/share folder. Don't copy the folder and paste into /usr/share! It will also break your system. Copy the contents to the respective folder.
-4. If you are going to use Hyprland only then add these lines to /etc/environment
+4. Default layout is master (not dwindle) but you can change that in `~/.config/hypr/themes/simple/myColors.conf`
+5. If you are going to use Hyprland only then add these lines to /etc/environment
 
 ``` bash
 MOZ_ENABLE_WAYLAND=1
@@ -74,7 +75,7 @@ Reference:
 3. https://github.com/wildan-pratama/wildan-hyprland
 4. https://github.com/arcolinux/arcolinux-hyprland
 
-## Main shortcuts: `~/.config/hypr/keybind.conf`
+## Main shortcuts: 
 
 <kbd>MOD</kbd> key is set to the <kbd>WINKEY</kbd>/<kbd>SUPER</kbd>
 
@@ -84,13 +85,17 @@ Reference:
  - <kbd>MOD</kbd>+<kbd>W</kbd> = open Browser (Firefox)
  - <kbd>MOD</kbd>+<kbd>F</kbd> = open File Manager (Thunar)
  - <kbd>ALT(LEFT)</kbd> = open Launcher (Rofi)
- - <kbd>MOD</kbd>+<kbd>C</kbd> = close focused app [kill]
- - <kbd>MOD</kbd>+<kbd>S</kbd> = screenshot/bring up screenshot menu
+ - <kbd>ALT(LEFT)</kbd>+<kbd>W</kbd> = open active window list
+- <kbd>MOD</kbd>+<kbd>S</kbd> = screenshot menu
  - <kbd>MOD</kbd>+<kbd>X</kbd> = power-menu
+ - <kbd>MOD</kbd>+<kbd>C</kbd> = close focused app [kill]
+ - <kbd>MOD</kbd>+<kbd>N</kbd> = open network manager
+ - <kbd>MOD</kbd>+<kbd>R</kbd> = open root menu
  - <kbd>ALT(RIGHT)</kbd>  = float window
+ - <kbd>MOD</kbd>+<kbd>B</kbd> = hide Waybar
  - <kbd>MOD</kbd>+<kbd>HOLD DOWN</kbd> = drag floating window
  - <kbd>MOD</kbd>+<kbd>↑ ↓ → ←</kbd>  = switch focus respectively 
- - <kbd>MOD</kbd>+<kbd>N</kbd> = open network manager
- - <kbd>MOD</kbd>+<kbd>M</kbd> = open mpd controller
- - <kbd>MOD</kbd>+<kbd>R</kbd> = open root menu
  
+Other keybindings are at `~/.config/hypr/keybind.conf`
+
+Welcome to the Hyparland and Enjoy!
