@@ -12,6 +12,12 @@ My github repo: https://www.github.com/asifakonjee
 1. Arch Linux Base Install
 2. Paru
 
+### Git
+
+```
+sudo pacman -S git
+```
+
 ### Paru
 
 Run as user NOT ROOT!
@@ -35,10 +41,10 @@ git clone --recursive https://github.com/hyprwm/Hyprland.git
 cd Hyprland/
 sudo make install
 
-Paru -S git sddm-git waybar-hyprland alacritty-sixel-git foot libsixel rofi-lbonn-wayland-git thunar gvfs-mtp swayidle \
+Paru -S sddm-git waybar-hyprland alacritty-sixel-git foot libsixel rofi-lbonn-wayland-git thunar gvfs-mtp swayidle \
 swaybg swaylock-effects-git wl-clipboard networkmanager-dmenu-git \
 xfce-polkit dunst geany viewnior nwg-look xdg-desktop-portal-hyprland-git qt5-svg inetutils \
-xdg-user-dirs pulsemixer pavucontrol qt5-graphicaleffects qt5-quickcontrols2 \
+xdg-user-dirs pavucontrol qt5-graphicaleffects qt5-quickcontrols2 \
 pipewire wireplumber grim slurp jq dunst qt5-wayland qt6-wayland qt5ct qt6ct kvantum kvantum-qt5-git kvantum-qt6-git
 ```
 N.B.- Some points during installation. 
